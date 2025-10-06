@@ -1,2 +1,149 @@
-# Classe-302
-devoirs et exams de la classe 302 css
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classe 3B - Espace Élèves</title>
+  <style>
+    /* --- STYLES GÉNÉRAUX --- */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      background-color: #4a4de7;
+      color: white;
+      padding: 1.5em 1em;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #333;
+      padding: 0.8em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      color: #4a4de7;
+    }
+
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1.5em;
+      margin-bottom: 2em;
+    }
+
+    h2 {
+      color: #4a4de7;
+      margin-bottom: 0.8em;
+    }
+
+    .subject {
+      margin-bottom: 1.5em;
+    }
+
+    .subject h3 {
+      margin-bottom: 0.3em;
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      background: #f0f0f8;
+      margin-bottom: 0.5em;
+      padding: 0.7em 1em;
+      border-radius: 6px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Classe 302 – Espace Élèves</h1>
+    <p>Devoirs, examens et activités de la classe</p>
+  </header>
+
+  <nav>
+    <a href="#devoirs">Devoirs & Examens</a>
+    <a href="#activites">Activités de classe</a>
+  </nav>
+
+  <main>
+    <section id="devoirs">
+      <h2>📚 Devoirs & Examens</h2>
+
+      <div class="subject">
+        <h3>Mathématiques</h3>
+        <ul>
+          <li>Terminer p. 75 #20, 25, 26, 39, extras 2, 3, 4, 7</li>
+          <li>SAÉ (pondéré durant ce cours)
+Comptabilisé dans la C1 de l’étape 2 (30% de la C1 l’étape 2) - 1 point par simplification (#1, 2, 3)
+            </li>
+            <li>
+                Terminer #27, 30, 32, 37, 38, 44
+            </li>
+        </ul>
+      </div>
+
+      <div class="subject">
+        <h3>Français</h3>
+        <ul>
+          <li>Lire la partie 2 de Camille</li>
+        </ul>
+      </div>
+
+      <div class="subject">
+        <h3>Science</h3>
+        <ul>
+        </ul>
+      </div>
+        <div class="subject">
+        <h3>Histoire</h3>
+        <ul>
+        </ul>
+      </div>
+    </section>
+
+    <section id="activites">
+      <h2>🎉 Activités de classe</h2>
+      <ul>
+        <li>rien pour le moment</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Classe 302 – Site pour les élèves
+  </footer>
+</body>
+</html>
